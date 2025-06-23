@@ -1,38 +1,56 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #041636, #cfdef3);
+  font-family: sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2em;
+  background: linear-gradient(to bottom right, #430a52, #ebedee);
+  color:#ebedee;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
   color: white;
+  text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
 }
 
-.App-link {
-  color: #61dafb;
+body, p, label, select, h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.color-selector {
+  display: flex;
+ 
+  align-items: center;
+  margin-top: 2em;
+}
+
+
+.band-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+.band-selector label {
+  font-weight: 600;
+  font-size: 1.1rem;
 }

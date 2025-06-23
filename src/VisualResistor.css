@@ -1,0 +1,30 @@
+.resistor-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.resistor-lead {
+  width: 30px;
+  height: 6px;
+  background-color: #333;
+}
+
+.resistor-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 180px;
+  height: 40px;
+  background-color: #f4f4dc;
+  border-radius: 8px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.resistor-band {
+  width: 8px;
+  height: 100%;
+  border-radius: 2px;
+  margin: 0 4px;
+}
